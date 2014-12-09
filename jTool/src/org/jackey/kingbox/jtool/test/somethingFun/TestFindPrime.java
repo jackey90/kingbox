@@ -1,8 +1,8 @@
 package org.jackey.kingbox.jtool.test.somethingFun;
 
-import com.jackey.dateAndTime.time.JTimeFormat;
-import com.jackey.inAndOut.JOutPrint;
-import com.jackey.somethingFun.FindPrime;
+import org.jackey.kingbox.jtool.dateAndTime.time.JTimeFormat;
+import org.jackey.kingbox.jtool.inAndOut.JOutPrint;
+import org.jackey.kingbox.jtool.somethingFun.FindPrime;
 
 public class TestFindPrime {
 	public static void main(String[] args) {

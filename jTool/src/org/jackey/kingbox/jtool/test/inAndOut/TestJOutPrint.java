@@ -3,7 +3,7 @@ package org.jackey.kingbox.jtool.test.inAndOut;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.jackey.inAndOut.JOutPrint;
+import org.jackey.kingbox.jtool.inAndOut.JOutPrint;
 
 public class TestJOutPrint {
 	public static void main(String[] args) {

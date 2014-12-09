@@ -1,6 +1,6 @@
 package org.jackey.kingbox.jtool.test.dataAndTime;
 
-import com.jackey.dateAndTime.time.JTimeFormat;
+import org.jackey.kingbox.jtool.dateAndTime.time.JTimeFormat;
 
 public class TestJTimeFormat {
 	public static void main(String[] args) {

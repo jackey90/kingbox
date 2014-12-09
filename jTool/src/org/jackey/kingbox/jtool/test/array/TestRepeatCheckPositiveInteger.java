@@ -1,6 +1,6 @@
 package org.jackey.kingbox.jtool.test.array;
 
-import com.jackey.array.RepeatCheckPositiveInteger;
+import org.jackey.kingbox.jtool.array.RepeatCheckPositiveInteger;
 
 /**
  * @author jackey90

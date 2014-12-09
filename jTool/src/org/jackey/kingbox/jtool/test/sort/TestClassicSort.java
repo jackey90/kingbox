@@ -1,9 +1,9 @@
 package org.jackey.kingbox.jtool.test.sort;
 
-import com.jackey.array.RandomTool;
-import com.jackey.dateAndTime.time.JTimeFormat;
-import com.jackey.inAndOut.JOutPrint;
-import com.jackey.sort.ClassicSort;
+import org.jackey.kingbox.jtool.array.RandomTool;
+import org.jackey.kingbox.jtool.dateAndTime.time.JTimeFormat;
+import org.jackey.kingbox.jtool.inAndOut.JOutPrint;
+import org.jackey.kingbox.jtool.sort.ClassicSort;
 
 /**
  * @author jackey90

@@ -1,9 +1,7 @@
 package org.jackey.kingbox.jtool.test.array;
 
-import java.sql.Date;
-
-import com.jackey.array.RandomTool;
-import com.jackey.dateAndTime.time.JTimeFormat;
+import org.jackey.kingbox.jtool.array.RandomTool;
+import org.jackey.kingbox.jtool.dateAndTime.time.JTimeFormat;
 
 /**
  * @author jackey90

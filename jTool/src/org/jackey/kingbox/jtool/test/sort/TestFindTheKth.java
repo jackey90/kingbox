@@ -1,8 +1,8 @@
 package org.jackey.kingbox.jtool.test.sort;
 
-import com.jackey.array.RandomTool;
-import com.jackey.inAndOut.JOutPrint;
-import com.jackey.sort.FindTheKth;
+import org.jackey.kingbox.jtool.array.RandomTool;
+import org.jackey.kingbox.jtool.inAndOut.JOutPrint;
+import org.jackey.kingbox.jtool.sort.FindTheKth;
 
 public class TestFindTheKth {
 	public static void main(String[] args) {
