@@ -35,7 +35,7 @@ public class JOutPrint {
 	}
 
 	/**
-	 * print the array, every row contains 9 numbers
+	 * print the array, every row contains 10 numbers
 	 * 
 	 * @param array
 	 *            2013-4-24
@@ -88,5 +88,16 @@ public class JOutPrint {
 	 */
 	public static void JPrint(double n) {
 		System.out.println(n + "");
+	}
+
+	/**
+	 * Dec 9, 2014
+	 */
+	public static void JPrint(Object obj) {
+		if (obj == null) {
+			System.out.println("null");
+		} else {
+			System.out.println(obj.toString());
+		}
 	}
 }
