@@ -1,4 +1,4 @@
-package com.jackey.array;
+package org.jackey.kingbox.jtool.array;
 
 /**
  * @author jackey90

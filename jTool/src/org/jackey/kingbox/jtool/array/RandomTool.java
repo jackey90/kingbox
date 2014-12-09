@@ -1,4 +1,4 @@
-package com.jackey.array;
+package org.jackey.kingbox.jtool.array;
 
 import java.util.Random;
 

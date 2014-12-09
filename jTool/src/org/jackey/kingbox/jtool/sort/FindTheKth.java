@@ -1,4 +1,4 @@
-package com.jackey.sort;
+package org.jackey.kingbox.jtool.sort;
 
 /**
  * Find The Kth number �ҵ���k�������

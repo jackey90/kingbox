@@ -1,4 +1,4 @@
-package com.jackey.somethingFun;
+package org.jackey.kingbox.jtool.somethingFun;
 
 import java.awt.List;
 import java.util.LinkedList;

@@ -7,7 +7,6 @@ public class MatrixTool {
 
 	/**
 	 * create a zero matrix with row rows and column columns
-	 * 创建一个row行column列的0矩阵
 	 * @param row
 	 * @param column
 	 * @return
