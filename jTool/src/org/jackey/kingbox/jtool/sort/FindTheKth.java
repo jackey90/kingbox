@@ -50,12 +50,12 @@ public class FindTheKth {
 	 */
 	public static int findTheKth(int[] array, int low, int high, int k) {
 		int temp = partition(array, low, high);
-		if (high + 1 - temp == k)
+		if (temp == k)
 			return array[temp];
-		else if (high + 1 - temp < k)
-			return findTheKth(array, low, temp, k - high + temp);
-		else
+		else if (temp < k)
 			return findTheKth(array, temp + 1, high, k);
+		else
+			return findTheKth(array, low, temp - 1, k);
 	}
 
 	/**
