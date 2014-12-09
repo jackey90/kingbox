@@ -17,17 +17,14 @@ public class FindTheKth {
 	 */
 	public static int partition(int[] array, int low, int high) {
 		int result = array[low];
-		int i = low;
-		int j = high + 1;
+		int i = low + 1;
+		int j = high;
 
 		while (i < j) {
-			while (i < high && array[++i] < result)
-				;
-			if(i < j){
-				
-			}
-			while (j > low && array[--j] > result)
-				;
+			while (i <= high && array[i] < result)
+				i++;
+			while (j >= low && array[j] > result)
+				j--;
 
 			if (i < j) {
 				int temp = array[i];
