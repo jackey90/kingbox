@@ -1,5 +1,7 @@
 package org.jackey.kingbox.jtool.inAndOut;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -100,4 +102,9 @@ public class JOutPrint {
 			System.out.println(obj.toString());
 		}
 	}
+
+	public static void JPrint(Object[] array){
+		System.out.println(Arrays.deepToString(array));
+	}
+
 }
